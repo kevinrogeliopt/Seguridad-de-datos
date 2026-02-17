@@ -69,3 +69,7 @@ Se mencionó el caso de Windows Fisher como ejemplo de cómo un dispositivo pued
 Además, se trabajó nuevamente con Metasploitable 2, donde el profesor explotó la vulnerabilidad presente en vsftpd 2.3.4, activada mediante la cadena ":)", lo que permitió obtener acceso remoto al sistema. Esta práctica evidenció cómo una falla específica puede convertirse en un punto crítico de compromiso si no se corrige oportunamente.
 
 La clase reforzó la importancia de mantener sistemas actualizados, aplicar parches y comprender tanto la perspectiva ofensiva como la defensiva dentro de la seguridad de datos.
+
+## Clase 11 de febrero de 2026
+
+En esta clase el profesor nos invintó a asistir a unas conferencias dirigidas por la universidad.
