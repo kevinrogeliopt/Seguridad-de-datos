@@ -49,3 +49,23 @@ También se revisó Shodan, motor de búsqueda de dispositivos conectados a inte
 Se mencionó la fase de gaining access, donde el atacante obtiene acceso inicial al sistema, y el concepto de zero-day, que se refiere a vulnerabilidades desconocidas públicamente y sin parche disponible al momento de su explotación.
 
 La clase permitió comprender cómo se pasa del análisis teórico de vulnerabilidades a la explotación práctica y cómo las organizaciones deben prepararse para detectar y responder ante estos escenarios.
+
+## Clase 4 de febrero de 2026
+
+En esta sesión se reforzaron los conceptos vistos en las clases anteriores, enfocándonos en la relación práctica entre vulnerabilidades, exploits y procesos de ataque controlados.
+
+Se profundizó en cómo herramientas como Metasploit permiten aprovechar vulnerabilidades documentadas en repositorios como Exploit Database, siempre dentro de entornos de laboratorio como Metasploitable 2. Se hizo énfasis en que la explotación no es un fin en sí mismo, sino una forma de demostrar riesgos reales para poder mitigarlos.
+
+También se relacionaron estas prácticas con el trabajo del SOC y el análisis de amenazas, entendiendo que mientras el atacante realiza fases como footprinting, scanning y gaining access, el equipo defensivo debe identificar indicadores de compromiso y reducir el impacto mediante controles de seguridad, monitoreo y aplicación de parches.
+
+La sesión permitió integrar la parte teórica (riesgo, amenaza, vulnerabilidad) con la parte práctica (explotación controlada y respuesta).
+
+## Clase 9 de febrero de 2026
+
+En esta clase se realizaron pruebas de concepto utilizando dispositivos como el ATtiny85, cargándoles distintos payloads obtenidos de repositorios como GitHub. Estos payloads permiten automatizar secuencias de comandos al conectarse a un equipo, simulando escenarios reales de ataque físico o ingeniería social.
+
+Se mencionó el caso de Windows Fisher como ejemplo de cómo un dispositivo puede ejecutar instrucciones automáticamente en un sistema Windows, demostrando la importancia de los controles físicos y de autenticación.
+
+Además, se trabajó nuevamente con Metasploitable 2, donde el profesor explotó la vulnerabilidad presente en vsftpd 2.3.4, activada mediante la cadena ":)", lo que permitió obtener acceso remoto al sistema. Esta práctica evidenció cómo una falla específica puede convertirse en un punto crítico de compromiso si no se corrige oportunamente.
+
+La clase reforzó la importancia de mantener sistemas actualizados, aplicar parches y comprender tanto la perspectiva ofensiva como la defensiva dentro de la seguridad de datos.
