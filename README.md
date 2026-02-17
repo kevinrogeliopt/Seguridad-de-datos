@@ -1,5 +1,5 @@
 # Bitácora: Seguridad de Datos
-
+# Parcial 1
 ## Clase 19 de enero de 2026
 
 En la primera clase se abordaron los fundamentos de la seguridad de la información. Iniciamos con el Triángulo CIA (Confidencialidad, Integridad y Disponibilidad), que establece que los datos deben estar protegidos contra accesos no autorizados, no deben ser alterados indebidamente y deben estar disponibles cuando se necesiten.
@@ -19,3 +19,33 @@ Se identificaron las direcciones utilizadas en cada nivel: dirección MAC (capa 
 También se introdujeron conceptos de reconocimiento y ataques en red. Se habló de Nmap como herramienta para realizar port scanning, técnica que permite detectar puertos abiertos y servicios activos. Además, se explicaron ataques como spoofing (suplantación de identidad), poisoning (como el envenenamiento ARP) y la manipulación de la MAC address table en switches.
 
 La clase permitió relacionar el funcionamiento técnico de las redes con los principios de seguridad vistos anteriormente, entendiendo que conocer cómo operan los sistemas es clave para poder protegerlos.
+
+## Clase 26 de enero de 2026
+
+En esta sesión se abordaron conceptos relacionados con la gestión de vulnerabilidades y el análisis de amenazas.
+
+Se inició con troubleshooting, entendido como el proceso sistemático para identificar, analizar y solucionar fallas en sistemas. En este contexto se explicaron los conceptos de falso positivo (cuando una herramienta detecta una amenaza que en realidad no existe) y falso negativo (cuando no detecta una amenaza real), destacando que ambos afectan la efectividad de la seguridad.
+
+Se revisaron herramientas de análisis de vulnerabilidades como Tenable, Qualys y OpenVAS, utilizadas para escanear sistemas en busca de debilidades. También se mencionaron metodologías como STRIDE y el marco de referencia MITRE ATT&CK, que permiten clasificar y analizar amenazas.
+
+Se diferenciaron los conceptos de vulnerabilidad (debilidad en un sistema), exploit (código o técnica que aprovecha esa debilidad), amenaza (posible evento dañino) y riesgo (probabilidad e impacto de que la amenaza explote la vulnerabilidad).
+
+Posteriormente se habló sobre los hackers, sus motivaciones y objetivos. Se explicó la diferencia entre red team (equipo ofensivo que simula ataques) y blue team (equipo defensivo). También se clasificaron distintos tipos de hackers: script kiddies, white hat, black hat, grey hat, entre otros, según su intención y nivel técnico.
+
+Además, se mencionó el benchmarking como práctica para comparar estándares o niveles de seguridad frente a otras organizaciones. Finalmente, se explicó el concepto de puertos efímeros, que son puertos temporales asignados dinámicamente por el sistema operativo para establecer conexiones salientes.
+
+## Clase 28 de enero de 2026
+
+En esta clase se profundizó en herramientas y prácticas relacionadas con la explotación de vulnerabilidades.
+
+Se analizó Exploit Database, repositorio público de exploits conocidos, y su contraparte defensiva, donde se publican parches y soluciones. También se trabajó con Metasploit y el entorno vulnerable Metasploitable 2, diseñado para practicar pruebas de penetración.
+
+Se estudió el caso de vsftpd 2.3.4, una versión vulnerable que contenía una puerta trasera activada con un ":", como ejemplo de flaw o falla explotable.
+
+Posteriormente se explicaron los conceptos de NOC (Network Operations Center) y SOC (Security Operations Center), diferenciando que el primero se enfoca en la operación y disponibilidad de la red, mientras que el segundo se centra en la monitoreo y respuesta ante incidentes de seguridad.
+
+También se revisó Shodan, motor de búsqueda de dispositivos conectados a internet, útil en procesos de footprinting y network mapping, que consisten en recolectar información y mapear la infraestructura de una red objetivo.
+
+Se mencionó la fase de gaining access, donde el atacante obtiene acceso inicial al sistema, y el concepto de zero-day, que se refiere a vulnerabilidades desconocidas públicamente y sin parche disponible al momento de su explotación.
+
+La clase permitió comprender cómo se pasa del análisis teórico de vulnerabilidades a la explotación práctica y cómo las organizaciones deben prepararse para detectar y responder ante estos escenarios.
