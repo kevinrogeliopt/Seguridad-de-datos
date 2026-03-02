@@ -73,3 +73,44 @@ La clase reforzó la importancia de mantener sistemas actualizados, aplicar parc
 ## Clase 11 de febrero de 2026
 
 En esta clase el profesor nos invintó a asistir a unas conferencias dirigidas por la universidad.
+
+# Parcial 2
+
+## Clase 2 de marzo de 2026
+
+En esta sesión se trabajó con la dinámica de CTF (Capture The Flag), una modalidad práctica utilizada en ciberseguridad para evaluar habilidades técnicas mediante retos estructurados. En este tipo de ejercicios, los participantes deben resolver desafíos para encontrar una "flag", que funciona como evidencia de haber superado correctamente la prueba.
+
+Los retos se dividieron en distintas categorías:
+
+- **OSINT (Open Source Intelligence):** Recolección de información a partir de fuentes públicas.
+- **RECON (Reconocimiento):** Identificación de activos, ubicaciones o datos relevantes del objetivo.
+- **CRYPTO:** Resolución de problemas relacionados con cifrado y codificación.
+- **WEB:** Análisis de aplicaciones web y posibles vulnerabilidades.
+
+Cada reto otorgaba una cantidad específica de puntos, dependiendo de su nivel de dificultad, y en algunos casos se podían solicitar pistas, lo que reducía la puntuación obtenida.
+
+### Retos basados en coordenadas y OSINT
+
+Algunos desafíos consistieron en analizar coordenadas geográficas como:
+
+- `25.9558723, -81.7202543` → "under the sea"
+- `21.178072706507923, -86.81892142841069` → "find the space invader"
+
+Estos ejercicios requerían habilidades de reconocimiento y análisis visual mediante mapas satelitales para identificar elementos específicos (por ejemplo, figuras tipo "space invader" visibles desde vista aérea).
+
+El formato de las flags seguía estructuras definidas, como:
+
+- `word`
+- `word1/word2`
+
+Lo que obligaba no solo a encontrar la respuesta correcta, sino también a respetar el formato solicitado.
+
+### Retos de búsqueda contextual
+
+Otros desafíos incluían referencias indirectas como:
+- "imagen png"
+- "find the pig and you will find the flag"
+- "peter porker"
+- "peter park 4122651"
+
+Estos ejercicios combinaban cultura general, búsqueda estratégica y análisis contextual para encontrar la relación correcta que condujera a la flag.
