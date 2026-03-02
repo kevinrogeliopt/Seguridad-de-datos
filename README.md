@@ -96,7 +96,7 @@ Algunos desafíos consistieron en analizar coordenadas geográficas como:
 - `25.9558723, -81.7202543` → "under the sea"
 - `21.178072706507923, -86.81892142841069` → "find the space invader"
 
-Estos ejercicios requerían habilidades de reconocimiento y análisis visual mediante mapas satelitales para identificar elementos específicos (por ejemplo, figuras tipo "space invader" visibles desde vista aérea).
+Estos ejercicios requerían habilidades de reconocimiento y análisis visual mediante mapas satelitales para identificar elementos específicos (por ejemplo, figuras tipo "under the sea" visibles desde vista aérea).
 
 El formato de las flags seguía estructuras definidas, como:
 
